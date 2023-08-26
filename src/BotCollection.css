@@ -1,0 +1,42 @@
+/* BotCollection.css */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  li img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+  }
+  
+  li button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  li button.release {
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #0056b3;
+  }
+  
+  li button.release:hover {
+    background-color: #c82333;
+  }
+  
