@@ -9,6 +9,9 @@ To run this project, you need the following:
 * npm (v6.0.0 or higher)
 
 ## Setup Instructions
+1. Make sure the db.json file is running by using json-server --watch db.json --port 8001
+2. Run it on http://localhost:8001/bots
+
 Follow these steps to set up the project on your local machine:
 1. Clone the repository: `git clone git@github.com:Kmurll/Phase-2-Week-2-Code-Challenge.git`
 2. Navigate to the project directory: `cd Phase-2-Week-2-Code-Challenge`
