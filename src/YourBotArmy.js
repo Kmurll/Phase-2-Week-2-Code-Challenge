@@ -1,21 +1,24 @@
 import React from 'react';
 import './YourBotArmy.css';
 
-
+// YourBotArmy component
 function YourBotArmy({ army, releaseBot, dischargeBot }) {
+  // Handle releasing a bot from the army
   const handleRelease = (bot) => {
-    releaseBot(bot);
-  };
+    releaseBot(bot) // Call the releaseBot function passed as a prop
+  }
 
+  // Handle discharging a bot from both the server and the frontend
   const handleDischarge = async (bot) => {
     try {
-      await dischargeBot(bot);
-      releaseBot(bot); // Remove the bot from the army on the frontend
+      await dischargeBot(bot); // Call the dischargeBot function passed as a prop
+      releaseBot(bot) // Remove the bot from the army on the frontend
     } catch (error) {
-      console.error('Error discharging bot:', error);
+      console.error('Error discharging bot:', error) // Log any errors that occur
     }
-  };
+  }
 
+  // Render the list of bots in the army
   return (
     <div>
       <h2>Your Bot Army</h2>
@@ -39,7 +42,7 @@ function YourBotArmy({ army, releaseBot, dischargeBot }) {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-export default YourBotArmy;
+export default YourBotArmy // Export the YourBotArmy component
