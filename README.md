@@ -17,7 +17,9 @@ Follow these steps to set up the project on your local machine:
 2. Navigate to the project directory: `cd Phase-2-Week-2-Code-Challenge`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
-5. Open your browser and go to `https://phase-2-week-2-code-challenge-beta.vercel.app/` to access the app.
+5. You can access the app on localhost:3000
+   OR
+ Open your browser and go to `https://phase-2-week-2-code-challenge-beta.vercel.app/` to access the app.
 
 ## Technologies Used
 * React
